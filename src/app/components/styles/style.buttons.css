@@ -1,0 +1,70 @@
+.signup {
+    cursor: pointer;
+
+    color: #FFF;
+    display: flex;
+
+
+    color: var(--white-50, #CAC4D2);
+    font-family: Roboto;
+    font-size: 1.12rem;
+
+    font-weight: 600;
+
+    height: 3.625rem;
+    padding: 0.75rem 2.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    border-radius: 1rem;
+    background: var(--aa, linear-gradient(135deg, #7526F2 0%, #C826F2 100%));
+    border: transparent;
+
+}
+
+.button2 {
+    width: 100%;
+    display: flex;
+
+    height: 3.87rem;
+    padding: 0.6rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+    flex-shrink: 0;
+    border-radius: 0.95rem;
+    border: transparent;
+    background: var(--aa, linear-gradient(135deg, #7526F2 0%, #C826F2 100%));
+}
+
+.restbutton {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    display: flex;
+
+    height: 3.87rem;
+    padding: 0.6rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+    flex-shrink: 0;
+    border-radius: 0.95rem;
+    border: transparent;
+    background: var(--aa, linear-gradient(135deg, #C826F2 0%, #7526F2 100%));
+
+}
+
+@media only screen and (max-width:375px) {
+    .restbutton {
+        margin-top: 10px;
+        font-size: 12px;
+        width: 41px;
+
+    }
+
+}
